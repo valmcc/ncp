@@ -13,7 +13,25 @@ published: true
 </head>
 <body>
   
-  <p>This is a little site made by the New Colombo Plan Scholars of 2016. What is included is a lot of hints, tips and observations that we sure wish we had known before setting off on our adventures. Hopefully it is helpful. <i> - The NCP 2016 Scholars </i> <br> </p>
+  <p>This is a little site made by the New Colombo Plan Scholars of 2016. What is included is a lot of hints, tips and observations that we sure wish we had known before setting off on our adventures. While it is intended for scholars in following years, some of the advice here should be applicable to anyone. Hopefully it is helpful. <i> - The NCP 2016 Scholars </i> <br> </p>
+  
+  <h1>General Advice</h1>
+  <p>These are some things that we wish someone told us before we left, and is useful regardless of your destination. <b></p>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+  
   <h1>Region Specific Advice</h1>
 <p>Here we have provided advice that is unique to each region. These are the things that we discovered during our exchanges, internships and language training that we think is valuable for others planning on staying in these specific regions.<br><br>You can select the region you're interested in on the map below.<br><br></p>
   <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
