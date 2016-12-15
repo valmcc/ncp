@@ -2,37 +2,32 @@
 layout: default
 published: true
 ---
+<html>
 <head>
-  
-<link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-
-<script src="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
- 
-  
-{% if page.custom_js %}
-    {% for js_file in page.custom_js %}	
-    <script src='/javascript/{{ js_file }}.js' type="text/javascript"></script> 
-    {% endfor %}
-{% endif %}
-
-{% if page.custom_css %}
-    {% for stylesheet in page.custom_css %}
-    <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
-    {% endfor %}
-{% endif %}
+  <title>A Leaflet map!</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <style>
+    #map{ height: 100% }
+  </style>
 </head>
-
 <body>
-<div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
 
-<script>
-// create the map object and set the cooridnates of the initial view: 
-var map = L.map('map').setView([51.4833, -3.1833], 10);
+  <div id="map"></div>
 
-// create the tile layer with correct attribution: 
-L.tileLayer('http://{s}.tiles.mapbox.com/v3/jamesg87.goac2bf1/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    maxZoom: 18
-}).addTo(map);
-</script>
+  <script>
+
+  // initialize the map
+  var map = L.map('map').setView([42.35, -71.08], 13);
+
+  // load a tile layer
+  L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
+    {
+      attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
+      maxZoom: 17,
+      minZoom: 9
+    }).addTo(map);
+
+  </script>
 </body>
+</html>
