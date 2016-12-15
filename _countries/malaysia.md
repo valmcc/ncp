@@ -1,9 +1,9 @@
 ---
-layout: page
 title: Malaysia
-permalink: /malaysia/
-published: true
+permalink: "/malaysia/"
+layout: page
 ---
+
 **Susanna Batchelder**
 
 **Fiona Bergstrum**

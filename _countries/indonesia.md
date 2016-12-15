@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Indonesia
-permalink: /indonesia/
-published: Yes
+permalink: "/indonesia/"
+layout: page
 ---
+
 Indonesia!!!

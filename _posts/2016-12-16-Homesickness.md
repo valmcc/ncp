@@ -1,8 +1,9 @@
 ---
-layout: post
 title: Homesickness
-published: true
+date: 2016-12-16 00:00:00 Z
+layout: post
 ---
+
 Homesickness sure sucks. This is some advice about it. 
 
 _Add homesickness advice here._
