@@ -1,4 +1,5 @@
 ---
-style:page
+layout: page
+title: Indonesia
 ---
-Indonesia
+Indonesia!!!
