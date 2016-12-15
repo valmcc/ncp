@@ -4,7 +4,7 @@ published: true
 ---
 <html>
 <head>
-  <title>A Leaflet map!</title>
+  <title>NCP Scholar Map</title>
   <link rel="stylesheet" href="/ncp/leaflet/leaflet.css"/>
   <script src="/ncp/leaflet/leaflet.js"></script>
   <style>
@@ -27,6 +27,11 @@ published: true
 	maxZoom: 20,
 	ext: 'png'
 }).addTo(map);
+    
+    //Adding markers
+    
+    var marker = L.marker([3.1389, 101.6871]).addTo(map);
+    marker.bindPopup("Malaysia").openPopup();
 
   </script>
 </body>
