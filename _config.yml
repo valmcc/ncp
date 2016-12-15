@@ -9,7 +9,7 @@ name: New Colombo Plan
 description: Providing information for future exchange students
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/valmcc/ncp/master/images/ncp-logo.jpg
+avatar: https://raw.githubusercontent.com/valmcc/ncp/master/images/ncp-logo.png
 
 #
 # Flags below are optional
@@ -19,11 +19,11 @@ avatar: https://raw.githubusercontent.com/valmcc/ncp/master/images/ncp-logo.jpg
 footer-links:
   dribbble:
   email:
-  facebook:
+  facebook: https://www.facebook.com/newcolomboplan/
   flickr:
   github: 
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/company/new-colombo-plan
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
