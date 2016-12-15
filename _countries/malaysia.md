@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Malaysia
-permalink: /malaysia/
+permalink: /ncp/malaysia/
 published: true
 ---
 **Susanna Batchelder**
