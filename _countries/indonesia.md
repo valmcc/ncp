@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Indonesia
-permalink: indonesia/
+permalink: /indonesia/
 published: Yes
 ---
 Indonesia!!!
