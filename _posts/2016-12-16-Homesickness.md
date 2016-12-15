@@ -6,4 +6,4 @@ published: true
 Homesickness sure sucks. This is some advice about it. 
 
 _Add homesickness advice here._
-![crying cat]({{site.baseurl}}/_posts/crying-cat.gif)
+![crying cat](https://raw.githubusercontent.com/valmcc/ncp/master/_posts/crying-cat.gif)
