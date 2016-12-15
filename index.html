@@ -21,11 +21,10 @@ published: true
   var map = L.map('map', {attributionControl: false}).setView([18.27, 133.59], 4);
   // load a tile layer
     
-  L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.{ext}', {
+L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
 	subdomains: 'abcd',
-	minZoom: 0,
-	maxZoom: 20,
-	ext: 'png'
+	maxZoom: 19
 }).addTo(map);
     
     //Adding markers
