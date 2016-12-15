@@ -10,6 +10,7 @@ collections:
     output: true
 include:
 - _countries
+- _uploads
 name: New Colombo Plan Alumni
 description: A bunch of Australian scholars that have gone on exchange to Asia, sharing
   their stories.
