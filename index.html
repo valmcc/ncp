@@ -2,17 +2,32 @@
 layout: default
 published: true
 ---
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<html>
+<head>
+  <title>A Leaflet map!</title>
+  <link rel="stylesheet" href="/ncp/leaflet/leaflet.css"/>
+  <script src="/ncp/leaflet/leaflet.js"></script>
+  <style>
+    #map{ height: 100% }
+  </style>
+</head>
+<body>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  <div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+  <script>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+  // initialize the map
+  var map = L.map('map').setView([42.35, -71.08], 13);
+
+  // load a tile layer
+  L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
+    {
+      attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
+      maxZoom: 17,
+      minZoom: 9
+    }).addTo(map);
+
+  </script>
+</body>
+</html>
