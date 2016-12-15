@@ -1,18 +1,38 @@
 ---
 layout: default
+published: true
 ---
+<head>
+  
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+ 
+  
+{% if page.custom_js %}
+    {% for js_file in page.custom_js %}	
+    <script src='/javascript/{{ js_file }}.js' type="text/javascript"></script> 
+    {% endfor %}
+{% endif %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+{% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+    <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
+    {% endfor %}
+{% endif %}
+</head>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+<body>
+<div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<script>
+// create the map object and set the cooridnates of the initial view: 
+var map = L.map('map').setView([51.4833, -3.1833], 10);
+
+// create the tile layer with correct attribution: 
+L.tileLayer('http://{s}.tiles.mapbox.com/v3/jamesg87.goac2bf1/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18
+}).addTo(map);
+</script>
+</body>
