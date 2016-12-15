@@ -4,7 +4,7 @@ permalink: "/malaysia/"
 layout: page
 ---
 
-![uni malaya entrance.jpg](/uploads/uni%20malaya%20entrance.jpg)
+![uni malaya entrance.jpg](/ncp/uploads/uni%20malaya%20entrance.jpg)
 
 This is a test photo
 
