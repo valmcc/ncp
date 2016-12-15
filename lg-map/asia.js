@@ -7,9 +7,9 @@
 ////////////////////
 var config = {
 	//The original map width, usually found in original SVG file, don't change this unless you are creating a new map
-	mapWidth : 700.400,
+	mapWidth : 200.000,
 	//The original map height, usually found in original SVG file, don't change this
-	mapHeight : 540.9900,
+	mapHeight : 540.000,
 	//If true, will trigger a window resize listener
 	responsive : true,
 	//Color when a state is disabled
