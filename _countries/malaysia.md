@@ -2,6 +2,10 @@
 layout: page
 title: Malaysia
 permalink: /malaysia/
-published: Yes
+published: true
 ---
-Indonesia!!!
+**Susanna Batchelder**
+**Fiona Bergstrum**
+**Thomas Engelhardt**
+**Valerian McCaskill**
+**Matthew Page**
