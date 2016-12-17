@@ -1,12 +1,13 @@
 ---
 title: Malaysia
-permalink: "/malaysia/"
+permalink: /malaysia/
 layout: page
+published: true
 ---
 
 ![uni malaya entrance.jpg](/ncp/uploads/uni%20malaya%20entrance.jpg)
 
-## Scholars
+# Scholars
 
 
 [I'll get some photos and info from DFAT to add here]
