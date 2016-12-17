@@ -1,12 +1,13 @@
 ---
 title: Malaysia
-permalink: "/malaysia/"
+permalink: /malaysia/
 layout: page
+published: true
 ---
 
 ![uni malaya entrance.jpg](/ncp/uploads/uni%20malaya%20entrance.jpg)
 
-##Scholars
+## Scholars
 
 
 [I'll get some photos and info from DFAT to add here]
@@ -39,18 +40,10 @@ I stayed at Istara Condo which is right near an lrt stop two stations from unive
 
 
 # Culture
-
 # Food
-
 # Studying
-
 # What to do
-
 E.g.
-
 ### A guide to KL’s music scene
-
 Text here - _Scholar (Location University)_
-
 # Safety
-
