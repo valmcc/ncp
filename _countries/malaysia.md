@@ -1,19 +1,25 @@
 ---
 title: Malaysia
-permalink: "/malaysia/"
+permalink: /malaysia/
 layout: page
+published: true
 ---
 
 ![uni malaya entrance.jpg](/ncp/uploads/uni%20malaya%20entrance.jpg)
 
-This is a test photo
+##Scholars
 
-**Susanna Batchelder**
 
-**Fiona Bergstrum**
 
-**Thomas Engelhardt**
+**Susanna Batchelder*
 
-**Valerian McCaskill**
+**Fiona Bergstrum*
 
-**Matthew Page**
+**Thomas Engelhardt*
+
+**Georgie Johnson*
+
+**Valerian McCaskill*
+
+**Matthew Page*
+
