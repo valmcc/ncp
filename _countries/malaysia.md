@@ -1,7 +1,8 @@
 ---
 title: Malaysia
-permalink: "/malaysia/"
+permalink: /malaysia/
 layout: page
+published: true
 ---
 
 ![uni malaya entrance.jpg](/ncp/uploads/uni%20malaya%20entrance.jpg)
@@ -24,10 +25,11 @@ layout: page
 **Matthew Page**
 
 
-#Accommodation
+# Accommodation
 
 Eg. 
-###Finding a room rental
+
+### Finding a room rental
 
 University Malaya provides its own accommodation, but you’re not too keen on sleeping in a tiny room with another person and no air-con, I’d suggest finding a place elsewhere. You can find rooms on ibilik.my or get an AirBnB and try negotiating with the owner. 
 
@@ -37,12 +39,12 @@ I stayed at Istara Condo which is right near an lrt stop two stations from unive
 
 
 
-#Culture
-#Food
-#Studying
-#What to do
+# Culture
+# Food
+# Studying
+# What to do
 E.g.
-###A guide to KL’s music scene
+### A guide to KL’s music scene
 Text here - _Scholar (Location University)_
-#Safety
+# Safety
 
