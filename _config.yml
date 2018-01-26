@@ -2,6 +2,9 @@
 title: Ncp
 timezone: UTC
 collections:
+  countries:
+    title: Countries
+    output: true
   posts:
     title: Posts
     output: true
@@ -41,7 +44,7 @@ kramdown:
   syntax_highlighter_opts:
     css_class: highlight
 sass:
-  style: :expanded
+  style: expanded
 gems:
 - jekyll-sitemap
 - jekyll-feed
