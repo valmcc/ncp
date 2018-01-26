@@ -42,6 +42,8 @@ I stayed at International house and it was great!! Valerian didn't get a place a
 
 # Food
 
+image of food?
+
 ![tn-recipes-CFL2-Nasi-Lemak.jpg](/uploads/tn-recipes-CFL2-Nasi-Lemak.jpg)
 
 # Studying

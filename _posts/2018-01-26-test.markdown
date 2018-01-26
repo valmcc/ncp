@@ -3,4 +3,4 @@ title: Test
 date: 2018-01-26 07:47:00 Z
 ---
 
-testpost
+testpost!
