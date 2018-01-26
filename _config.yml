@@ -1,0 +1,56 @@
+---
+title: Ncp
+timezone: UTC
+collections:
+  countries:
+    title: Countries
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+include:
+- _countries
+- _uploads
+name: New Colombo Plan Alumni
+description: A bunch of Australian scholars that have gone on exchange to Asia, sharing
+  their stories.
+avatar: https://raw.githubusercontent.com/valmcc/ncp/master/images/ncp-logo.png
+footer-links:
+  dribbble: 
+  email: 
+  facebook: newcolomboplan
+  flickr: 
+  github: 
+  instagram: 
+  linkedin: new-colombo-plan
+  pinterest: 
+  rss: 
+  twitter: 
+  stackoverflow: 
+  youtube: 
+  googleplus: 
+disqus: 
+google_analytics: 
+url: https://valmcc.github.io
+baseurl: "/ncp"
+permalink: "/:title/"
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+sass:
+  style: expanded
+gems:
+- jekyll-sitemap
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- CNAME
