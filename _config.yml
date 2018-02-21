@@ -38,6 +38,7 @@ url: https://valmcc.github.io
 baseurl: "/ncp"
 permalink: "/:title/"
 version: v1.2.0
+markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
