@@ -4,6 +4,7 @@ permalink: "/malaysia/"
 layout: page
 ---
 
+test
 ![uni malaya entrance.jpg](/ncp/uploads/uni%20malaya%20entrance.jpg)
 
 # Scholars
