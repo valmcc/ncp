@@ -4,8 +4,10 @@ permalink: "/malaysia/"
 layout: page
 ---
 
+* TOC
 {:toc}
 
+yes
 ![uni malaya entrance.jpg](/ncp/uploads/uni%20malaya%20entrance.jpg)
 
 # Scholars
